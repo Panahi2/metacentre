@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather:400,700">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<?php wp_head() ?>
 </head>
 <body>
 	<header>
