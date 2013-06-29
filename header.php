@@ -21,7 +21,10 @@
 			</div>
 			<div class="title">
 				<h1><a href="<?php echo get_settings('home'); ?>"><?php bloginfo('name'); ?></a></h1>
-				<p><?php bloginfo('description'); ?></p>
+				<ul>
+					<li><?php wp_list_pages('title_li=&'); ?></li>
+				</ul>
+				<!--<p><?php bloginfo('description'); ?></p>-->
 			</div>
 		</div>
 	</header>
