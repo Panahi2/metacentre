@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('2'); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<article>
 		<div class="container">
