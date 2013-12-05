@@ -22,7 +22,7 @@
 			<div class="title">
 				<h1><a href="<?php echo get_settings('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<ul>
-					<li><?php wp_list_pages('title_li=&'); ?></li>
+					<?php wp_list_pages('title_li=&'); ?>
 				</ul>
 				<!--<p><?php bloginfo('description'); ?></p>-->
 			</div>
