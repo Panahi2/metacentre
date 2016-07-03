@@ -4,6 +4,23 @@
 	Author: Timothy Long
 	Author URI: http://timothylong.com
 */
+@font-face {
+  font-family: Samim;
+  src: url('font/Samim.eot');
+  src: url('font/Samim.eot?#iefix') format('embedded-opentype'),
+       url('font/Samim.woff') format('woff'),
+       url('font/Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url('font/Samim-Bold.eot');
+  src: url('font/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+       url('font/Samim-Bold.woff') format('woff'),
+       url('font/Samim-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
 * {
 	margin:0;
 	padding:0;
@@ -20,7 +37,7 @@
 	clear:both;
 }
 body {
-	font:400 22px/1.6 "Crimson Text",serif;
+	font:400 22px/1.6 Samim,"Crimson Text",serif;
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
