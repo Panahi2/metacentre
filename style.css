@@ -1,8 +1,11 @@
 /*
-	Theme Name: Metacentre
-	Theme URI: http://github.com/timothylong/metacentre
-	Author: Timothy Long
-	Author URI: http://timothylong.com
+	Theme Name : Metacentre
+	Theme URI  : http://github.com/timothylong/metacentre
+	Author     : Timothy Long
+	Author URI : http://timothylong.com
+	Edited     : Ali Panahi
+	Editor URI : http://alipanahi2.ir
+	Notice     : https://codex.wordpress.org/Right-to-Left_Language_Support
 */
 @font-face {
   font-family: Samim;
@@ -42,6 +45,8 @@ body {
 	-moz-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 	text-rendering:optimizeLegibility;
+	direction: rtl;
+    unicode-bidi: embed;
 }
 .no-scroll {
 	overflow:hidden;
